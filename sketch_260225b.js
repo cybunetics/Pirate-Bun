@@ -1,6 +1,6 @@
 function setup() {
   createCanvas (500, 500);
-  background(200);
+  background(50);
 }
 
 
@@ -10,12 +10,12 @@ function draw() {
 
 
   fill(150);//ears
-  ellipse (width/2 - 50, height/3, 50, 150);
-  ellipse (width/2 + 50, height/3, 50, 150);
+  ellipse (width/2 - 50, height/3, 60, 180);
+  ellipse (width/2 + 50, height/3, 60, 180);
 
-  fill(255, 204, 250); //pink ear
-  ellipse (width/2 - 50, height/3, 10, 100);
-  ellipse (width/2 + 50, height/3, 10, 100);
+  fill(130, 103, 103); //pink ear
+  ellipse (width/2 - 50, height/3, 20, 130);
+  ellipse (width/2 + 50, height/3, 20, 130);
 
   fill(150);//circle head
   circle(width/2, height/2, 200);
@@ -23,14 +23,16 @@ function draw() {
   fill(255);//eyepatch + frown
   stroke(0);
   strokeWeight(5);
-  line(120, 80, 340, 300);
+  line(170, 190, 345, 280);
 
   noFill();
-  arc(250, 305, 60, 60, 1, PI);
+  arc(250, 300, 25, 20, 0, PI);
 
 
-  fill(180);//eyes
-  circle(width/2 - 50, height/2 + 10, 50);
+  fill(255, 56, 56);//eyes
+  stroke(133, 13, 13);
+  circle(width/2 - 48, height/2 + 8, 30);
+  noStroke();
   fill(0);
-  circle(width/2 + 50, height/2 + 10, 50);
+  circle(width/2 + 48, height/2 + 8, 50);
 }
