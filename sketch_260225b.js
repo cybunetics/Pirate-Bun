@@ -25,8 +25,10 @@ function draw() {
   strokeWeight(5);
   line(170, 190, 345, 280);
 
+
   noFill();
-  arc(250, 300, 25, 20, 0, PI);
+  arc(width/2 - 13, 300, 25, 20, 0, PI);
+  arc(width/2 + 13, 300, 25, 20, 0, PI);
 
 
   fill(255, 56, 56);//eyes
